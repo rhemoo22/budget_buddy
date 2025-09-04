@@ -247,10 +247,12 @@ Please make me also feel secure that I'm sharing my income with you.
                             {
                                 "role": "user",
                                 "content": f"""
-            Here is my spending summary by category:
-            {summary_text}
+            Here are my transactions:
+            {transactions_text}
             My occupation is {occupation} and I am {age} years old. Please suggest if there any deals or discounts for my 
             occupation and/or age and provide links or resources if available to where I can find more information on that.
+            Then if I'm not using certain deals currently, point out specific deals I can save on based on what I already pay 
+            for with the newfound information of my age and occupation. If I am using those deals, don't point it out.
             """
                                     }
                                 ],
